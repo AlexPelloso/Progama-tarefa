@@ -26,11 +26,11 @@
             break
     
             //Se for para abrir a página Formação...
-            case 'Parcerias': 
-                $('.modal-title').append('Parcerias')
+            case 'Home': 
+                $('.modal-title').append('Página Inical')
                 $('.modal-body').append(`<p>
-                <b>Parceiros: </b> <br><br>
-                Como parceiros, tenho apoio de muitos trabalhadores de sistemas, tenho amigos e meus pais!
+                <b>Home: </b> <br><br>
+                Você já está na pagina principal!
                 </p>`)
                 $('#modal-info').modal('show')
             break
@@ -54,6 +54,37 @@
                 </p>`)
                 $('#modal-info').modal('show')
             break
+
+            //Se for para abrir a página Whatsapp...
+            case 'whats': 
+                $('.modal-title').append('Whatsapp')
+                $('.modal-body').append(`<p>
+                <b>Whatsapp:</b> <br><br>
+                https://api.whatsapp.com/send?phone=5514997058363
+                </p>`)
+                $('#modal-info').modal('show')
+            break
+
+            //Se for para abrir a página instagram...
+            case 'insta': 
+                $('.modal-title').append('Instagram')
+                $('.modal-body').append(`<p>
+                <b>Instagram:</b> <br><br>
+                https://www.instagram.com/alex_pelloso/?hl=pt-br
+                </p>`)
+                $('#modal-info').modal('show')
+            break
+
+            //Se for para abrir a página Contatos...
+            case 'face': 
+                $('.modal-title').append('Facebook')
+                $('.modal-body').append(`<p>
+                <b>Facebook:</b> <br><br>
+                https://www.facebook.com/alexrodrigo.alexjunior/
+                </p>`)
+                $('#modal-info').modal('show')
+            break
+
     
             default: alert('Link não encontrado');
         }
