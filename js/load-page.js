@@ -116,6 +116,7 @@
 
     
             default: alert('Link não encontrado');
+
         }
     
         })
