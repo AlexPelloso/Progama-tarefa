@@ -189,7 +189,7 @@ button:hover {
     border-radius: 10px;
     border-color: black;
   }
-  
+
   input{
     width: 97%;
     height: 30px;
@@ -204,3 +204,7 @@ button:hover {
     color: black;
   }
   
+  btn{
+    text-align: center;
+    align-items: center;
+  }
